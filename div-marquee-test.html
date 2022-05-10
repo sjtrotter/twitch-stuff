@@ -1,0 +1,160 @@
+<html>
+<head>
+    <style>
+        @keyframes mq1 {
+            0%  { transform:translateX(100%);   }
+            1%  { transform:translateX(0);      }
+            9%  { transform:translateX(0);      }
+            10% { transform:translateX(-100%);  }
+            100%    { transform:translateX(-100%);  }
+        }
+
+        @keyframes mq2 {
+            0%  { transform:translateX(100%);   }
+            10% { transform:translateX(100%);   }
+            11% { transform:translateX(0);      }
+            19% { transform:translateX(0);      }
+            20% { transform:translateX(-100%);  }
+            100%    { transform:translateX(-100%);  }
+
+        }
+
+        @keyframes mq3 {
+            0%  { transform:translateX(100%);   }
+            20% { transform:translateX(100%);   }
+            21% { transform:translateX(0);      }
+            29% { transform:translateX(0);      }
+            30% { transform:translateX(-100%);  }
+            100%    { transform:translateX(-100%);  }
+        }
+
+        @keyframes mq4 {
+            0%  { transform:translateX(100%);   }
+            30% { transform:translateX(100%);   }
+            31% { transform:translateX(0);      }
+            39% { transform:translateX(0);      }
+            40% { transform:translateX(-100%);  }
+            100%    { transform:translateX(-100%);  }
+        }
+
+        @keyframes mq5 {
+            0%  { transform:translateX(100%);   }
+            40% { transform:translateX(100%);   }
+            41% { transform:translateX(0);      }
+            49% { transform:translateX(0);      }
+            50% { transform:translateX(-100%);  }
+            100%    { transform:translateX(-100%);  }
+        }
+
+        @keyframes mq6 {
+            0%  { transform:translateX(100%);   }
+            50% { transform:translateX(100%);   }
+            51% { transform:translateX(0);      }
+            59% { transform:translateX(0);      }
+            60% { transform:translateX(-100%);  }
+            100%    { transform:translateX(-100%);  }
+        }
+
+        @keyframes mq7 {
+            0%  { transform:translateX(100%);   }
+            60% { transform:translateX(100%);   }
+            61% { transform:translateX(0);      }
+            69% { transform:translateX(0);      }
+            70% { transform:translateX(-100%);  }
+            100%    { transform:translateX(-100%);  }
+        }
+
+        @keyframes mq8 {
+            0%  { transform:translateX(100%);   }
+            70% { transform:translateX(100%);   }
+            71% { transform:translateX(0);      }
+            79% { transform:translateX(0);      }
+            80% { transform:translateX(-100%);  }
+            100%    { transform:translateX(-100%);  }
+        }
+
+        @keyframes mq9 {
+            0%  { transform:translateX(100%);   }
+            80% { transform:translateX(100%);   }
+            81% { transform:translateX(0);      }
+            89% { transform:translateX(0);      }
+            90% { transform:translateX(-100%);  }
+            100%    { transform:translateX(-100%);  }
+        }
+
+        @keyframes mq10 {
+            0%  { transform:translateX(100%);   }
+            90% { transform:translateX(100%);   }
+            91% { transform:translateX(0);      }
+            99% { transform:translateX(0);      }
+            100%    { transform:translateX(-100%);  }
+        }
+        .marquee {
+            width: 300px;
+            height: 150px;
+            margin: 10px auto;
+            /*overflow: hidden;*/
+            position: relative;
+            white-space: nowrap;
+            vertical-align: text-top;
+            border: 2px;
+            border-color: white;
+        }
+
+        .marquee iframe {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            text-align: center;
+            /*transform:translateX(100%);*/
+        }
+
+        iframe.marquee:nth-child(1) {
+            animation: mq1 80s ease 5s infinite;
+        }
+        iframe.marquee:nth-child(2) {
+            animation: mq2 80s ease 5s infinite;
+        }
+        iframe.marquee:nth-child(3) {
+            animation: mq3 80s ease 5s infinite;
+        }
+        iframe.marquee:nth-child(4) {
+            animation: mq4 80s ease 5s infinite;
+        }
+        iframe.marquee:nth-child(5) {
+            animation: mq5 80s ease 5s infinite;
+        }
+        iframe.marquee:nth-child(6) {
+            animation: mq6 80s ease 5s infinite;
+        }
+        iframe.marquee:nth-child(7) {
+            animation: mq7 80s ease 5s infinite;
+        }
+        iframe.marquee:nth-child(8) {
+            animation: mq8 80s ease 5s infinite;
+        }
+        iframe.marquee:nth-child(9) {
+            animation: mq9 80s ease 5s infinite;
+        }
+        iframe.marquee:nth-child(10) {
+            animation: mq10 80s ease 5s infinite;
+        }
+
+    </style>
+</head>
+<body>
+<!--<embed class="marquee" src="https://dashboard.twitch.tv/widgets/goal/ki3den" />-->
+    <div class="marquee">
+        <iframe class="marquee" src="https://tracker.gg/overlays/overlay/347710c7-d003-47ec-8c56-29269060692c"></iframe>
+        <iframe class="marquee" src="https://tracker.gg/overlays/overlay/687c5759-99f1-4f40-95c3-377cfb1751be"></iframe>
+        <iframe class="marquee" src="https://tracker.gg/overlays/overlay/b8efb59c-02ae-4edf-9c9d-50a6d1643064"></iframe>
+        <iframe class="marquee" src="https://tracker.gg/overlays/overlay/80fc2dab-f197-452e-827d-36aafdeca87d"></iframe>
+        <iframe class="marquee" src="https://tracker.gg/overlays/overlay/76576b68-97aa-42a5-a5e4-45574ab0d3e9"></iframe>
+        <iframe class="marquee" src="https://tracker.gg/overlays/overlay/fe174a33-4b60-4bcd-aed6-3188dbf1d432"></iframe>
+        <iframe class="marquee" src="https://tracker.gg/overlays/overlay/7c1a3a59-7540-4c15-a5b4-24d19dbd5880"></iframe>
+        <iframe class="marquee" src="https://tracker.gg/overlays/overlay/ebc95461-8851-4576-a8bf-0f8aec7c9d46"></iframe>
+        <iframe class="marquee" src=""></iframe>
+    </div>
+</body>
+</html>
